@@ -1,0 +1,23 @@
+
+cluster.name: shield-test
+transport.profiles.default.shield.ssl.client.auth: no
+
+shield:
+  authc:
+    anonymous:
+      username: anonymous_user 
+      roles: admin
+
+  http.ssl: true
+  transport.ssl: true
+
+  ssl:
+    truststore:
+      path: /home/honza/work/elastic/consulting/customers/SoftwareAG/JavaDemo/conf/truststore.jks
+      password: password
+
+    keystore:
+      path: /home/honza/work/elastic/consulting/customers/SoftwareAG/JavaDemo/conf/node01.jks
+      password: password
+      key_password: password
+
