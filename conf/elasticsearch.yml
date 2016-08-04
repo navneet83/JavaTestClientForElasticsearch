@@ -13,11 +13,11 @@ shield:
 
   ssl:
     truststore:
-      path: /home/honza/work/elastic/consulting/customers/SoftwareAG/JavaDemo/conf/truststore.jks
+      path: /home/honza/work/elastic/consulting/JavaDemo/conf/truststore.jks
       password: password
 
     keystore:
-      path: /home/honza/work/elastic/consulting/customers/SoftwareAG/JavaDemo/conf/node01.jks
+      path: /home/honza/work/elastic/consulting/JavaDemo/conf/node01.jks
       password: password
       key_password: password
 
